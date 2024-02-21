@@ -17,4 +17,8 @@ function preecherFormulario(data){
     document.getElementById('logradouro').value = data.logradouro;
     document.getElementById('bairro').value = data.bairro;
     document.getElementById('localidade').value = data.localidade;
+    document.getElementById('uf').value = date.uf;
+
+    document.getElementById('str').innerHTML = JSON.stringify(data)
+
 }
