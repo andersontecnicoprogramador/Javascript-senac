@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function buscarCEP() {
     var cep = document.getElementById('cep').value.replace(/\D/g, '');
 
@@ -18,12 +17,4 @@ function preencherFormulario(data) {
     document.getElementById('bairro').value = data.bairro || '';
     document.getElementById('localidade').value = data.localidade || '';
     document.getElementById('uf').value = data.uf || '';
-=======
-function cadastro () {
-    buscaCep();
-}
-
-function buscaCep(){
-    alert("buscaCep")
->>>>>>> 63519069baaa8a67573d91581d9ad5224a2ac91f
 }
